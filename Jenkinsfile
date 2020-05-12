@@ -14,7 +14,7 @@ node {
     
     /* Building the image */
     stage('Build image') {
-        app = docker.build("rishi12398/python_calculator")
+        app = docker.build("shubhamjaincash/python_calculator")
     }
     /*Pushing the new image to dockerhub with tag: latest*/
     stage('Push image') {
